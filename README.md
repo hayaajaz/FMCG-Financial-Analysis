@@ -26,7 +26,7 @@ My workflow involved:
 ---
 
 ## 🐍 3. Automated ETL & Cleaning (Python)
-![Python ETL Process](images/pyhton script.PNG)
+![Pyhton ETL Process](images/pyhtonscript.PNG)
 **Technical Action:** Developed a **Python** script (Pandas/NumPy) to automate the cleaning of the raw exports shown above.
 * **Value Added:** Standardized the dataset by cleaning 1,000+ rows of data, ensuring it was 100% accurate before database migration.
  
