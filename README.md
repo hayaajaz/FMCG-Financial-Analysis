@@ -14,37 +14,37 @@ My workflow involved:
 
 ---
 
-## 📊 1. Executive BI Dashboard (Power BI)
-![Final Dashboard Preview](images/Dashboard.PNG)
+## 📊 1. Final Executive Dashboard (Power BI)
+![Final Dashboard Preview](images/Dashboard.png)
 * **Value Added:** Created high-level KPIs in **Power BI** to provide real-time visibility into Gross Sales and Net Margins across **Pakistan, UAE, and Malaysia**.
 
 ---
 
-## 🐍 2. Automated ETL & Cleaning (Python)
-![Python ETL Process](images/python_cleaned_filecode.png)
-* **Technical Action:** Developed a **Python** script (Pandas/NumPy) to automate the cleaning of the raw **Excel** exports.
+## 📉 2. Initial Data Auditing (Excel & Raw Data)
+![Raw Data Interface](images/RawData.png)
+* **Technical Action:** Conducted a deep-dive audit of the source `Global_Automotive_Analytics_1000_Records.xlsx` file.
+* **Value Added:** Identified critical inconsistencies in currency symbols and unformatted string values that required automated cleaning.
+
+---
+
+## 🐍 3. Automated ETL & Cleaning (Python)
+![Python ETL Process](images/pyhton script.png)
+* **Technical Action:** Developed a **Python** script (Pandas/NumPy) to automate the cleaning of the raw exports shown above.
 * **Value Added:** Handled complex string manipulation and currency normalization, ensuring **100% audit-ready financial accuracy**.
 
 ---
 
-## 🗄️ 3. Relational Database Migration (SQL)
-![SQL Schema and Queries](images/fmcg_sqlfile.png)
+## 🗄️ 4. Relational Database Migration (SQL)
+![SQL Schema and Queries](images/SQL_q.png)
 * **Technical Action:** Successfully migrated cleaned data from Python into a **MySQL** relational database.
 * **Value Added:** Engineered complex **SQL** joins to calculate true profitability by connecting sales transactions with manufacturing costs and employee overheads.
 
 ---
 
-## 📈 4. SKU & Market Performance Analysis
-![Data Analysis View](images/dashboard_preview.png)
-* **Technical Action:** Used **DAX** to create dynamic measures for Net Contribution analysis.
-* **Value Added:** Isolated **Biscuits (UNL-BIS-105-PK)** as the top performer while flagging underperforming segments (Coke Bottles) for strategic review.
-
----
-
-## 💡 5. Strategic Business Insights
-![Key Business Metrics](images/ADD_YOUR_5TH_IMAGE_NAME_HERE.png)
-* **Outcome:** Identified that **Trade Discounts** were often exceeding profit thresholds in specific territories.
-* **Recommendation:** Provided data-backed evidence to reallocate marketing spend toward high-ROI promotional campaigns.
+## 📈 5. SKU & Market Performance (Cleaned Data View)
+![Cleaned Data Analysis](images/cleaneddata.png)
+* **Technical Action:** Used **DAX** to create dynamic measures for Net Contribution analysis on the finalized dataset.
+* **Value Added:** Isolated **Biscuits (UNL-BIS-105-PK)** as the top performer while flagging underperforming segments for strategic review.
 
 ---
 
