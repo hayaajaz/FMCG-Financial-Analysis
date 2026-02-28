@@ -1,0 +1,10 @@
+create database fmcg_projecttwo;
+use fmcg_projecttwo;
+SHOW TABLES;
+show tables;
+SELECT DATABASE();
+SHOW TABLES;
+USE fmcg_projecttwo;
+SHOW TABLES;
+SELECT COUNT(*) FROM fmcg_projecttwo;
+SELECT * FROM fmcg_projecttwo LIMIT 10;
