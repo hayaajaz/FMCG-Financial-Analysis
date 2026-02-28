@@ -15,7 +15,7 @@ My workflow involved:
 ---
 
 ## 📊 1. Executive BI Dashboard (Power BI)
-![Final Dashboard Preview](images/project_two_final.png)
+![Final Dashboard Preview](images/Dashboard.PNG)
 * **Value Added:** Created high-level KPIs in **Power BI** to provide real-time visibility into Gross Sales and Net Margins across **Pakistan, UAE, and Malaysia**.
 
 ---
