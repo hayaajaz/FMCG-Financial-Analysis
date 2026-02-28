@@ -15,34 +15,34 @@ My workflow involved:
 ---
 
 ## 📊 1. Final Executive Dashboard (Power BI)
-![Final Dashboard Preview](images/Dashboard.png)
+![Final Dashboard Preview](images/Dashboard.PNG)
 * **Value Added:** Created high-level KPIs in **Power BI** to provide real-time visibility into Gross Sales and Net Margins across **Pakistan, UAE, and Malaysia**.
 
 ---
 
 ## 📉 2. Initial Data Auditing (Excel & Raw Data)
-![Raw Data Interface](images/RawData.png)
+![Raw Data Interface](images/RawData.PNG)
 * **Technical Action:** Conducted a deep-dive audit of the source `Global_Automotive_Analytics_1000_Records.xlsx` file.
 * **Value Added:** Identified critical inconsistencies in currency symbols and unformatted string values that required automated cleaning.
 
 ---
 
 ## 🐍 3. Automated ETL & Cleaning (Python)
-![Python ETL Process](images/pyhton script.png)
+![Python ETL Process](images/pyhton script.PNG)
 * **Technical Action:** Developed a **Python** script (Pandas/NumPy) to automate the cleaning of the raw exports shown above.
 * **Value Added:** Handled complex string manipulation and currency normalization, ensuring **100% audit-ready financial accuracy**.
 
 ---
 
 ## 🗄️ 4. Relational Database Migration (SQL)
-![SQL Schema and Queries](images/SQL_q.png)
+![SQL Schema and Queries](images/SQL_q.PNG)
 * **Technical Action:** Successfully migrated cleaned data from Python into a **MySQL** relational database.
 * **Value Added:** Engineered complex **SQL** joins to calculate true profitability by connecting sales transactions with manufacturing costs and employee overheads.
 
 ---
 
 ## 📈 5. SKU & Market Performance (Cleaned Data View)
-![Cleaned Data Analysis](images/cleaneddata.png)
+![Cleaned Data Analysis](images/cleaneddata.PNG)
 * **Technical Action:** Used **DAX** to create dynamic measures for Net Contribution analysis on the finalized dataset.
 * **Value Added:** Isolated **Biscuits (UNL-BIS-105-PK)** as the top performer while flagging underperforming segments for strategic review.
 
