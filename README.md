@@ -26,7 +26,7 @@ My workflow involved:
 ---
 
 ## 🐍 3. Automated ETL & Cleaning (Python)
-![Python ETL Process](images/pythonscript.PNG)
+![Python ETL Process](<images/pyhton script.PNG>)
 **Technical Action:** Developed a **Python** script (Pandas/NumPy) to automate the cleaning of the raw exports shown above.
 * **Value Added:** Standardized the dataset by cleaning 1,000+ rows of data, ensuring it was 100% accurate before database migration.
  
@@ -44,9 +44,7 @@ My workflow involved:
 **Technical Action:** Utilized the **Cleaned Data** to perform deep-dive analysis on SKU velocity and trade discounts.
 * **Value Added:** Isolated **Biscuits (UNL-BIS-105-PK)** as the top performer (4.27M) while identifying profit erosion in underperforming beverage segments.
 
-  
 ---
-
 ## 🛠️ Technical Tech Stack
 * **Initial Auditing:** Excel (Data Validation & Structural Checks)
 * **Data Engineering:** Python (Pandas, NumPy, Regex for Cleaning)
