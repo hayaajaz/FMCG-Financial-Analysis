@@ -55,6 +55,3 @@ My workflow involved:
 * **Data Volume:** 1,000+ FMCG Transactions
 ---
 
-
-* `/sql`: Database schema and complex query scripts.
-* `/images`: Documentation of the end-to-end workflow.
